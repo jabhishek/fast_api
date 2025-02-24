@@ -7,7 +7,7 @@ app = 'fast-api-young-sun-5825'
 primary_region = 'lhr'
 
 [build]
-  dockerfile = "./Dockerfile"
+  dockerfile = "./dockerfile"
 
 [http_service]
   internal_port = 8080
