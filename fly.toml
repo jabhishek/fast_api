@@ -6,6 +6,9 @@
 app = 'fast-api-young-sun-5825'
 primary_region = 'lhr'
 
+[build]
+  dockerfile = "./Dockerfile"
+
 [http_service]
   internal_port = 8080
   force_https = true
